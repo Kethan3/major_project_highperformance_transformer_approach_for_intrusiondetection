@@ -65,7 +65,7 @@ This repository contains the implementation of a high-performance transformer ap
 
 3. Run the application:
 ```bash
-     python main.py
+     python app.py
 ```
 If users prefer not to input parameters manually through the front-end, you can process a .pcapng file using the provided script:
 
