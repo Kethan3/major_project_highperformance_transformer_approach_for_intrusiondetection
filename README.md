@@ -55,20 +55,23 @@ This repository contains the implementation of a high-performance transformer ap
    cd major_project_highperformance_transformer_approach_for_intrusiondetection  
 
 2. Install the required dependencies:
-
+```bash
    pip install tensorflow==2.5.0 --user  
    pip install --user scikit-learn==1.0.2 markupsafe==2.0.1 protobuf==3.20 numpy==1.19.5 keras==2.5.0rc0 werkzeug==0.16.0 itsdangerous==2.0.1 jinja2==3.0.3  
    pip install --user opencv-python==4.1.1.26  
    pip uninstall flask werkzeug -y  
-   pip install flask==1.1.1 werkzeug==0.16.0  
+   pip install flask==1.1.1 werkzeug==0.16.0
+```
 
 3. Run the application:
-
+```bash
      python main.py
-
+```
 If users prefer not to input parameters manually through the front-end, you can process a .pcapng file using the provided script:
 
 Place your Wireshark-captured .pcapng file in the test directory (e.g., test.pcapng).
 Run the following command to extract parameters :
-    python .\test\pcap_reader.py  
-The extracted parameters will be sent to the IDS system for analysis, bypassing manual input through the front end.
+```bash
+ python .\test\pcap_reader.py
+```
+The extracted parameters will be sent to the  system for analysis, bypassing manual input through the front end.
