@@ -1,6 +1,6 @@
 # High-Performance Transformer Approach for Intrusion Detection  
 
-This repository contains the implementation of a high-performance transformer approach for Intrusion Detection  designed to identify and classify network traffic anomalies. By leveraging state-of-the-art machine learning (ML) and deep learning (DL) techniques, including Transformer Encoder-Decoder models, this system ensures robust and scalable detection of threats in network traffic.  
+This repository contains the implementation of a high-performance transformer approach for Intrusion Detection  designed to identify and classify network traffic anomalies. By leveraging state-of-the-art machine learning (ML) and deep learning (DL) techniques, including Transformer Encoder-Decoder models, voting classifier, this system ensures robust and scalable detection of threats in network traffic.  
 
 ---
 
