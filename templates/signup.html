@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="static/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="static/images/fav.jpg">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/all.min.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+
+    <body class="form-login-body"> 
+        <div class="container-fluid">
+            <form action="/signup" method="GET">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 logo">
+                            
+                        </div>
+                        <div class="col-md-9 sup">
+                            <ul>
+                                
+                                <li><button type="button" class="btn btn-sm btn-outline-primary"><i class="fas fa-user"></i> <a href="/login">Sign In</a></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login-body container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="login-text">
+                                    <h4>Welcome</h4>
+                                    
+                                    <input type="text" name="user" placeholder="Enter Username" class="form-control" required pattern="[A-Za-z].{6,}" title="Six or more Uppercase and lowercase letter req.">
+                                    <input type="text" name="name" placeholder="Enter Name" class="form-control" required>
+                                    <input type="text" name="email" placeholder="Enter Email" class="form-control" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                                    <input type="text" name="mobile"  placeholder="Enter Phone Number" class="form-control" required pattern="[6-9]{1}[0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9"> 
+                                    <input type="password" name="password" placeholder="Enter Password" class="form-control" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                                     <button class="btn btn-primary">Sign Up</button>
+                                     <p>Already have an account <a href="/login">Sign In!</a></p>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="login-img">
+                                    <img src="static/images/login.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                </form>
+        </div>
+    </body>
+
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+    <script src="static/plugins/slider/js/owl.carousel.min.js"></script>
+    <script src="static/js/script.js"></script>
+</html>
