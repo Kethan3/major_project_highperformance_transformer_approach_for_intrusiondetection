@@ -14,8 +14,7 @@ This repository contains the implementation of a high-performance transformer ap
 - **Key Capabilities**:  
   - Detection of benign traffic and multiple attack types, including:  
     - Denial of Service (DoS)  
-    - Probe Attacks  
-    - Remote to Local (R2L)  
+    - Probe Attacks    
   - Real-time traffic capture and feature extraction using **Wireshark**.  
   - Extracting parameters from `.pcapng` files when users choose not to manually input data.  
   - Interactive front-end for user inputs and parameter customization.  
@@ -65,7 +64,7 @@ This repository contains the implementation of a high-performance transformer ap
 
 3. Run the application:
 ```bash
-     python app.py
+  python app.py
 ```
 If users prefer not to input parameters manually through the front-end, you can process a .pcapng file using the provided script:
 
